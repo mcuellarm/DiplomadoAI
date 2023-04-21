@@ -1,0 +1,24 @@
+Título del proyecto: Sistema de Acceso Restringido con Reconocimiento Facial y Verificación de Lavado de Manos
+
+Objetivos:
+
+Desarrollar un sistema automatizado que utilice reconocimiento facial para identificar a una persona y verificar que se haya lavado las manos antes de permitirle el acceso a una área restringida.
+Implementar detección de acciones en video para asegurarse de que la persona se ha lavado las manos de manera adecuada.
+Incrementar la seguridad y eficiencia en la gestión de acceso a áreas restringidas.
+Herramientas de IA a utilizar:
+
+OpenCV: una biblioteca de visión por computadora de código abierto que se utiliza para el procesamiento de imágenes y videos.
+TensorFlow: una biblioteca de aprendizaje automático de código abierto que se utiliza para la creación de modelos de reconocimiento de imágenes.
+Keras: una biblioteca de aprendizaje profundo que se utiliza para la construcción de modelos de reconocimiento facial.
+YOLO (You Only Look Once): un algoritmo de detección de objetos en tiempo real que se utiliza para la detección de acciones en video.
+Ideas centrales:
+
+El sistema utilizará cámaras de vigilancia para capturar imágenes de las personas que deseen acceder a un área restringida.
+La biblioteca de OpenCV se utilizará para preprocesar y analizar las imágenes capturadas.
+Se construirá un modelo de reconocimiento facial utilizando Keras para identificar a la persona que desea acceder al área restringida.
+Se utilizará el algoritmo YOLO para detectar si la persona se ha lavado las manos y de manera adecuada, mediante la detección de las acciones de lavado de manos en el video.
+Si la persona es reconocida y se ha lavado las manos correctamente, el sistema le concederá acceso al área restringida. De lo contrario, el acceso será denegado.
+Fuentes de datos:
+
+Se podrían utilizar bases de datos de rostros como FaceNet o Labeled Faces in the Wild (LFW) para entrenar el modelo de reconocimiento facial.
+Se pueden encontrar videos de personas lavándose las manos en plataformas como YouTube o Vimeo, o grabar videos para la construcción de un conjunto de datos personalizado para la detección de acciones en video.
